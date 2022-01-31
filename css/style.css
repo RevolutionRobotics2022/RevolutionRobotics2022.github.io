@@ -35,7 +35,7 @@ a.active {
   transition: all 0.3s ease-out;
 }
 #header-scroll h1 {
-  padding: 200px 0;
+  padding: 250px 0;
   height: 100%;
   font-size: 4em;
   text-align: center;
@@ -54,7 +54,7 @@ a.active {
 #header-scroll.small h1 {
   padding: 10px 0;
   height: auto;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-decoration: none;
   font-weight: bold;
   display: inline-block;
@@ -110,6 +110,13 @@ section:nth-child(odd) {
 }
 .sections section:first-child {
   margin-top: 100px;
+}
+p {
+  font-weight: lighter;
+  margin: 25px 150px 10px 150px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: justify;
 }
 footer ul {
   display: flex;
