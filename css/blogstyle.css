@@ -112,17 +112,20 @@ section:nth-child(odd) {
 .sections section:first-child {
   margin-top: 100px;
 }
-.blog, .blog2{
+.blog{
   display: block;
-  position: relative;
-  margin-top: auto;
-  margin-left: auto;
+  float: none;
+  box-sizing: border-box;
+  position: static;
+  z-index: auto;
+  margin: 250px;
+  margin-top: 0px;
+  margin-bottom: 40px;
   background-color: white;
   color: black;
   border: 2px solid #34495e;
   border-radius: 10px;
-  width: 250px;
-  height: 500px;
+  height: auto;
   padding: 10px;
 }
 h4 {
@@ -138,4 +141,18 @@ h4 {
   font-size: 20px;
   font-weight: lighter;
   text-align: center;
+}
+h5{
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.spacer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+iframe{
+  padding-left:10%;
+  padding-top: 20px;
 }
