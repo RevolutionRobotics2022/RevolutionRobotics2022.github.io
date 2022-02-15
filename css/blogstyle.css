@@ -118,7 +118,7 @@ section:nth-child(odd) {
   box-sizing: border-box;
   position: static;
   z-index: auto;
-  margin: 250px;
+  margin: 30%;
   margin-top: 0px;
   margin-bottom: 40px;
   background-color: white;
@@ -126,13 +126,14 @@ section:nth-child(odd) {
   border: 2px solid #34495e;
   border-radius: 10px;
   height: auto;
+  width: auto;
   padding: 10px;
 }
 h4 {
   font-size: 4rem;
   color: #34495e;
   margin-left: 3%;
-  padding: 10%;
+  padding: 5%;
   text-align: center;
   letter-spacing: 12px;
 }
